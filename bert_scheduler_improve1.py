@@ -345,10 +345,11 @@ for epoch in range(EPOCHS):
     wer_score = wer.compute(predictions=pred_answers, references=true_answers)
     print("epoch ",epoch,":",wer_score)
     wer_list.append(wer_score)
-    with open("base_model_wer.txt", 'w') as f:
+print(wer_list)
+with open("doc_stride_results.txt", 'w') as f:
     for s in wer_list:
         f.write(str(s) + '\n')
-print(wer_list)
+f.close()
 
 tokens = tokenizerFast.tokenize("This is a sentence.")
 print(tokens)
