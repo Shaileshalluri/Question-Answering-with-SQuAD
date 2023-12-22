@@ -1,5 +1,5 @@
 # Question Answering with SQuAD
 
-I implemented seperate codes for each improvements suggested in Homework ppt. I ran the codes on palmetto cluster and uploaded the respective outputs for
-each task here.
+The SQuAD Question Answering Project is an initiative to develop a robust and efficient system for automatically generating answers to questions based on a given context. The project leverages the Stanford Question Answering Dataset (SQuAD), a benchmark dataset widely used in the field of natural language processing and machine reading comprehension.
+
 
